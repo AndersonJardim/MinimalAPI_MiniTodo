@@ -12,3 +12,9 @@ dotnet new web -o MiniTodo
 dotnet add package Microsoft.EntityFrameworkCore.SqLite
 dotnet add package Microsoft.EntityFrameworkCore.Design
 ```
+
+Precisei fazer um dowgrade PARA .NET 7 e os packages para 7.0.3
+
+```bash
+dotnet ef migrations add InitialCreation
+```
