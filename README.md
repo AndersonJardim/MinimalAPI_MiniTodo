@@ -17,4 +17,7 @@ Precisei fazer um dowgrade PARA .NET 7 e os packages para 7.0.3
 
 ```bash
 dotnet ef migrations add InitialCreation
+dotnet ef database update
 ```
+
+Em seguida o app.db foi criado.
