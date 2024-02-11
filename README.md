@@ -26,4 +26,5 @@ http://localhost:5275/v1/todos
 
 ```bash
 dotnet add package Flunt
+dotnet add package Swashbuckle.AspNetCore
 ```
